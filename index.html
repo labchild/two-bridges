@@ -18,13 +18,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- my styles -->
+    <link rel="stylesheet" href="./index.css">
     <title>Two Bridges Press</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Two Bridges</a>
+          <a class="navbar-brand" href="/">Two Bridges</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -44,7 +46,7 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="/about.html"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -52,8 +54,8 @@
                   About Us
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Mission</a></li>
-                  <li><a class="dropdown-item" href="#">Staff</a></li>
+                  <li><a class="dropdown-item" href="/about.html">Mission</a></li>
+                  <li><a class="dropdown-item" href="/about.html">Staff</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -74,24 +76,30 @@
     </main>
 
     <footer>
-      <div class="container">
-        <div class="socials">
-          <ul>
-            <li><a class=""></a></li>
-            <li><a class=""></a></li>
-            <li><a class=""></a></li>
-            <li><a class=""></a></li>
-          </ul>
-        </div>
+      <div class="container mt-5">
         <div class="row">
-          <ul class="foot-menu col-sm">
-            <li>Books</li>
-            <li>About Us</li>
-            <li>Contact</li>
-            <li>Submit</li>
+          <ul class="foot-menu d-sm-flex justify-content-evenly">
+            <li><a class="nav-link disabled" aria-disabled="true">Books</a></li>
+            <li><a class="nav-link" href="/about.html">About Us</a></li>
+            <li><a class="nav-link" href="/contact.html">Contact</a></li>
+            <li><a class="nav-link" href="/contact.html">Submit</a></li>
           </ul>
 
-          <div class="col-sm">address & phone, perhaps email</div>
+          <!-- <div class="col-sm">
+            <address>123 Main Street<br />
+              ste 101<br />
+              Brooklyn, NY 11226
+            </address>
+            <a class="nav-link" href="tel:1235556969">123-555-6969</a>
+          </div> -->
+        </div>
+        <div class="socials">
+          <ul class="foot-menu d-sm-flex justify-content-center">
+            <li><a class="mx-3"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a class="mx-3"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="mx-3"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a class="mx-3"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
         </div>
       </div>
 
