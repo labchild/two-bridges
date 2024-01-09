@@ -41,6 +41,10 @@ body {
     color: var(--primary-color);
 }
 
+.navbar-brand > img {
+    height: 60px;
+}
+
 .foot-menu > li {
     list-style: none;
 }
