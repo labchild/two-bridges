@@ -66,12 +66,13 @@ body {
     object-fit: cover;
 }
 
-.our-story {
+.our-story,
+.info-section {
     background-color: var(--background-color);
     color: var(--black-color);
 }
 
-.our-story > h2 {
+.section-title {
     color: var(--secondary-color);
 }
 
@@ -81,4 +82,12 @@ body {
 
 .tb-link:hover {
     color: var(--black-color);
+}
+
+@media (min-width: 992px) { 
+    .hero-content,
+    .section-content {
+        max-width: 80%;
+        margin: auto;
+    }
 }
