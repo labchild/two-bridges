@@ -11,6 +11,36 @@ body {
     color: var(--background-color);
 }
 
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon,
+.navbar-toggler,
+.dropdown-item,
+.dropdown-toggle {
+    color: var(--background-color)
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.navbar-toggler:hover,
+.dropdown-toggle:hover {
+    color: var(--black-color);
+}
+
+.navbar-nav .nav-link.show {
+    color: var(--background-color);
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+    border-color: var(--background-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
 .foot-menu > li {
     list-style: none;
 }
@@ -19,7 +49,7 @@ body {
     color: var(--secondary-color);
 }
 
-.social-link :hover {
+.social-link:hover {
     /* text-shadow: 1px 0 5px; */
     color: var(--background-color);
 }
@@ -37,6 +67,14 @@ body {
     color: var(--black-color);
 }
 
-.navbar {
-    color: var(--background-color)
+.our-story > h2 {
+    color: var(--secondary-color);
+}
+
+.tb-link {
+    color: var(--secondary-color);
+}
+
+.tb-link:hover {
+    color: var(--black-color);
 }
