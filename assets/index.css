@@ -11,6 +11,12 @@ body {
     color: var(--background-color);
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+}
+
 .nav-link,
 .navbar-brand,
 .navbar-toggler-icon,
@@ -82,6 +88,10 @@ body {
 
 .tb-link:hover {
     color: var(--black-color);
+}
+
+.tb-border {
+    border-bottom: solid 2px var(--background-color);
 }
 
 @media (min-width: 992px) { 
